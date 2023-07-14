@@ -1,0 +1,38 @@
+/* comentarios */
+
+/* ccs = cascade style sheet*/
+
+h1{color:blanchedalmond; font-size: small ; font-family: Verdana, Geneva, Tahoma, sans-serif ;
+borde:;}
+
+/*selector de class */
+
+.caja{
+    width: 350px;
+    height: 25px;
+    background-color:rgb(41, 41, 212)
+}
+
+.contenedor{ display: flex; 
+    margin-top: 15px;
+}
+
+.izquierda {color: black;
+background-color:cornflowerblue;
+width: 350px;
+height: 350px;
+margin-left: 10px;
+text-align: center;
+border-color: cadetblue
+;border-radius: 15px;
+}
+
+.derecha{color:black;
+    background-color: cornflowerblue;
+width: 350px;
+height: 350px;
+margin-left: 10px;
+text-align: center;
+border-radius: 15px;}
+
+.precio{text-align: left; font-size: medium;}
